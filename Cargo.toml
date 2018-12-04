@@ -1,0 +1,11 @@
+[package]
+name = "aoc2018"
+version = "0.1.0"
+authors = ["Paul CACHEUX <paulcacheux@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+aoc-runner = "0.1"
+aoc-runner-derive = "0.1"
+text_io = "0.1"
+chrono = "0.4"
