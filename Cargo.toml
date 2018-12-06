@@ -5,7 +5,7 @@ authors = ["Paul CACHEUX <paulcacheux@gmail.com>"]
 edition = "2018"
 
 [dependencies]
-aoc-runner = "0.1"
-aoc-runner-derive = "0.1"
+aoc-runner = "0.2"
+aoc-runner-derive = "0.2"
 text_io = "0.1"
 chrono = "0.4"

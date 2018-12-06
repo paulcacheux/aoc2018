@@ -65,7 +65,6 @@ pub fn solve_part1(input: &[Coord]) -> i32 {
         counter.remove(&f);
     }
 
-    dbg!(&counter);
     *counter.values().max().unwrap()
 }
 
