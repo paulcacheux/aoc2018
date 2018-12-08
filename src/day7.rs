@@ -133,10 +133,12 @@ Step F must be finished before step E can begin.";
         assert_eq!(result, "CABDFE");
     }
 
+/* Can't be uncommented because of the constants that are different between test and aoc
     #[test]
     fn part2() {
         let requirements = input_generator(INPUT);
         let result = solve_part2(&requirements);
         assert_eq!(result, 15);
     }
+*/
 }
